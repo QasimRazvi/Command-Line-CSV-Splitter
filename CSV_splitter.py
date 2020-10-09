@@ -10,6 +10,7 @@ except the last file (which will contain all remaining records).
 Split files follow a zero-index sequential naming convention:
 
     `{split_file_prefix}_0.csv`
+    
 """
 current_dir = os.path.dirname(os.path.realpath(__file__))
 
